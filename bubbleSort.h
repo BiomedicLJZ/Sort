@@ -1,6 +1,6 @@
 #ifndef BUBBLESORT_H
 #define BUBBLESORT_H
-// este bubble va a ser modificado por
+
 #include <vector>
 template<typename T>
 void bubbleSort(std::vector<T>& arr){
