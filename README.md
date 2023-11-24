@@ -388,4 +388,4 @@ To finish this section, here is a table with the time complexities of each algor
 
 Added image to refer the complexity of each algorithm:
 
-![Complexity](D:\Documentos\UNIAT\Clases\Programacion3\sorting\Sort\BigO.png)
+![Complexity](BigO.png)
