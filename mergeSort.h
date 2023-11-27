@@ -4,6 +4,13 @@
 #include <vector>
 
 // Function to merge left and right subsections of an array.
+
+// TIME COMPLEXITY                  SPATIAL COMPLEXITY
+/*
+Worst Case = O(N log N)                  = O(N)
+Average Case = O(N log N)
+Best Case = O(N log N)
+ */
 template <typename T>
 void merge(std::vector<T>& array, int const left, int const mid, int const right){
     std::vector<T> leftArray(array.begin() + left, array.begin() + mid + 1);

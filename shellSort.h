@@ -6,6 +6,13 @@
 #include <vector>
 
 // Function to implement Shell Sort
+
+// TIME COMPLEXITY                  SPATIAL COMPLEXITY
+/*
+Worst Case = O(N(log(N))^2)         = O(1)
+Average Case = O(N(log(N))^2)
+Best Case = O(N log N)
+ */
 void shellSort(std::vector<int>& arr){
   int n = arr.size();
 

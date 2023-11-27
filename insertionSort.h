@@ -7,6 +7,13 @@
 
 // This function implements the insertion sort algorithm to sort a vector of elements in ascending order.
 // It iterates over each element, finds the correct position for it in the sorted part of the vector, and places it there.
+
+// TIME COMPLEXITY                  SPATIAL COMPLEXITY
+/*
+Worst Case = O(N^2)                  = O(1)
+Average Case = O(N^2)
+Best Case = O(N)
+ */
 template <typename Comparable>
 void insertionSort(std::vector<Comparable>& a) {
   // Iterate over each element in the vector

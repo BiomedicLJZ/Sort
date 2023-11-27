@@ -2,6 +2,13 @@
 #define BUBBLESORT_H
 
 #include <vector>
+
+// TIME COMPLEXITY                  SPATIAL COMPLEXITY
+/*
+Worst Case = O(N^2)                  = O(1)
+Average Case = O(N^2)
+Best Case = O(N)
+ */
 template<typename T>
 void bubbleSort(std::vector<T>& arr){
   auto n = arr.size();

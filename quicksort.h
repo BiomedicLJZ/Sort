@@ -4,6 +4,13 @@
 #include <vector>
 
 // Function to swap values at two pointers
+
+// TIME COMPLEXITY                  SPATIAL COMPLEXITY
+/*
+Worst Case = O(N^2)                  = O(N log N)
+Average Case = O(N log N)
+Best Case = O(N log N)
+ */
 inline void swap(int* a, int* b) { 
   int t = *a;
   *a = *b;
