@@ -35,4 +35,17 @@ void mergeSort(std::vector<T>& array, int const begin, int const end){
   }
 }
 
+// Complejidad temporal:
+// La función mergeSort tiene una complejidad temporal de O(n log n), donde "n" es el número de elementos en el arreglo.
+// La función merge también tiene una complejidad temporal de O(n), ya que combina dos subarreglos ordenados.
+// La recursión en mergeSort realiza divisiones del arreglo hasta que cada subarreglo tenga un solo elemento, lo que lleva a log(n) divisiones.
+// En cada nivel de la recursión, hay O(n) operaciones debido a la combinación de subarreglos en la función merge.
+// Por lo tanto, el tiempo total es O(n log n).
+
+// Complejidad espacial:
+// La complejidad espacial del algoritmo Merge Sort es O(n), donde "n" es el número de elementos en el arreglo.
+// Esto se debe al uso de arreglos temporales L[] y R[] para almacenar los subarreglos durante el proceso de combinación en la función merge.
+// Además, la recursión en mergeSort utiliza la pila de llamadas, ocupando espacio proporcional al log(n) en el peor caso.
+// En resumen, la complejidad espacial es O(n) + O(log n), que se simplifica a O(n).
+
 #endif // MERGESORT_H

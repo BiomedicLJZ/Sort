@@ -49,4 +49,16 @@ void quickSort(std::vector<int> &arr){
   quickSort(arr, 0, arr.size()-1);
 }
 
+// Complejidad temporal:
+// La función partition tiene una complejidad temporal de O(n), donde "n" es el número de elementos en el subarreglo.
+// La función quickSort tiene una complejidad temporal promedio de O(n log n).
+// En el peor caso, la elección del pivote puede llevar a una complejidad temporal de O(n^2), pero esto es poco probable en situaciones prácticas si se selecciona un pivote de manera adecuada.
+// En el mejor caso y en la media, quickSort realiza log(n) particiones, y en cada partición, realiza O(n) comparaciones y swaps.
+// Por lo tanto, la complejidad temporal promedio es O(n log n).
+
+// Complejidad espacial:
+// La complejidad espacial del algoritmo Quicksort es O(log n) en la pila de llamadas para la versión recursiva.
+// Esto se debe a la recursión, ya que cada llamada recursiva agrega un marco de pila.
+// En el peor caso, la complejidad espacial puede ser O(n) debido a la recursión en el peor caso, pero en el caso promedio es O(log n).
+
 #endif // QUICKSORT_H
