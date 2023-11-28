@@ -15,4 +15,23 @@ void bubbleSort(std::vector<T>& arr){//funcion de bubble sort que aprovecha el t
     }
   }//bubble sort has an average of n^2 in time complexity and a 1 space complexity
 }
+
+void improvedBubbleSort(std::vector<int>& arr){
+  auto n = arr.size();
+  bool swapped;
+  for (unsigned long i = 0; i < n-1; ++i) {
+    swapped = false;
+    for (unsigned long j = 0; j < n-i-1; ++j) {
+      if (arr[j] > arr[j + 1]) {
+        int temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+        swapped = true;
+      }
+    }
+    if(!swapped){
+      break;
+    }
+  }
+}
 #endif //BUBBLESORT_H
