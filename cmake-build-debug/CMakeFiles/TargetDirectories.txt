@@ -1,0 +1,3 @@
+C:/Users/hasly/Desktop/ProfePapu/cmake-build-debug/CMakeFiles/sorting.dir
+C:/Users/hasly/Desktop/ProfePapu/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hasly/Desktop/ProfePapu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
