@@ -1,0 +1,4 @@
+C:\Users\miky_\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" -S C:\Users\miky_\Documents\Personal\Escuela\Semestre3\Programacion\Sort -B C:\Users\miky_\Documents\Personal\Escuela\Semestre3\Programacion\Sort\cmake-build-debug
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/miky_/Documents/Personal/Escuela/Semestre3/Programacion/Sort/cmake-build-debug
